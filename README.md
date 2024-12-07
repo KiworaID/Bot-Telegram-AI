@@ -1,76 +1,78 @@
-# KiworaBot - Bot Telegram AI Assistant
 
-Bot Telegram pintar yang menggunakan Groq AI untuk memberikan respons cerdas dalam bahasa Indonesia.
 
-## Fitur
+# KiworaBot - Telegram AI Assistant
 
-- 💬 Chat dengan AI dalam bahasa Indonesia
-- 🔄 Terjemahan otomatis ke bahasa Indonesia
-- 📊 Sistem tracking penggunaan
-- 👤 Manajemen pengguna
-- ⚙️ Konfigurasi mudah
+Smart Telegram bot powered by Groq AI providing intelligent responses.
 
-## Persyaratan
+## Features
+
+- 💬 Chat with AI in multiple languages
+- 🔄 Automatic translation support
+- 📊 Usage tracking system
+- 👤 User management
+- ⚙️ Easy configuration
+
+## Requirements
 
 - Python 3.8+
-- Token Bot Telegram
-- API Key Groq
-- ID Chat Admin Telegram
+- Telegram Bot Token
+- Groq API Key
+- Admin Telegram Chat ID
 
-## Instalasi
+## Installation
 
-1. Clone repositori ini:
+1. Clone this repository:
 ```bash
 git clone https://github.com/username/Bot-Telegram-AI.git
 cd Bot-Telegram-AI
 ```
 
-2. Install dependensi yang diperlukan:
+2. Install required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Salin file `.env.example` ke `.env` dan isi dengan kredensial Anda:
+3. Copy `.env.example` to `.env` and fill with your credentials:
 ```
 TELEGRAM_BOT_TOKEN=your_telegram_bot_token
 GROQ_API_KEY=your_groq_api_key
 ADMIN_CHAT_ID=your_admin_chat_id
 ```
 
-## Cara Penggunaan
+## Usage
 
-1. Jalankan bot:
+1. Run the bot:
 ```bash
 python bot.py
 ```
 
-2. Mulai chat dengan bot Anda di Telegram
+2. Start chatting with your bot on Telegram
 
-## Mendapatkan Kredensial
+## Getting Credentials
 
-1. **Token Bot Telegram**:
-   - Chat dengan [@BotFather](https://t.me/BotFather) di Telegram
-   - Buat bot baru dengan perintah `/newbot`
-   - Salin token yang diberikan
+1. **Telegram Bot Token**:
+   - Chat with [@BotFather](https://t.me/BotFather) on Telegram
+   - Create new bot using `/newbot` command
+   - Copy the provided token
 
-2. **API Key Groq**:
-   - Daftar di [Groq](https://console.groq.com)
-   - Buat API key baru
-   - Salin API key
+2. **Groq API Key**:
+   - Register at [Groq](https://console.groq.com)
+   - Create new API key
+   - Copy the API key
 
-3. **ID Chat Admin**:
-   - Chat dengan [@userinfobot](https://t.me/userinfobot) di Telegram
-   - Salin ID yang diberikan
+3. **Admin Chat ID**:
+   - Chat with [@userinfobot](https://t.me/userinfobot) on Telegram
+   - Copy the provided ID
 
-## Fitur Administratif
+## Administrative Features
 
-- Reset statistik penggunaan: `/reset_stats` (hanya admin)
-- Lihat statistik penggunaan: `/stats` (hanya admin)
+- Reset usage statistics: `/reset_stats` (admin only)
+- View usage statistics: `/stats` (admin only)
 
-## Kontribusi
+## Contributing
 
-Kontribusi selalu diterima! Silakan buat pull request atau laporkan masalah melalui issues.
+Contributions are always welcome! Please feel free to submit a Pull Request or create an Issue.
 
-## Lisensi
+## License
 
-Proyek ini dilisensikan di bawah MIT License - lihat file [LICENSE](LICENSE) untuk detail lebih lanjut. 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
