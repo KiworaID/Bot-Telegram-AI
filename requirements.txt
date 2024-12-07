@@ -1,0 +1,4 @@
+python-telegram-bot==20.7
+python-dotenv==1.0.0
+groq==0.4.2
+deep-translator==1.11.4
