@@ -23,7 +23,7 @@ Smart Telegram bot powered by Groq AI providing intelligent responses.
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/username/Bot-Telegram-AI.git
+git clone https://github.com/KiworaID/Bot-Telegram-AI.git
 cd Bot-Telegram-AI
 ```
 
